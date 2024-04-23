@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tela"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A2E3ED"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etxtNota1"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:ems="10"
+        android:hint="Digite a primeira nota:"
+        android:inputType="numberDecimal"
+        android:rotation="-4"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <EditText
+        android:id="@+id/etxtNota2"
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:ems="10"
+        android:hint="Digite a segunda nota:"
+        android:inputType="numberDecimal"
+        android:rotation="4"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <EditText
+        android:id="@+id/etxtNota3"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:ems="10"
+        android:hint="Digite a terceira nota:"
+        android:inputType="numberDecimal"
+        android:rotation="-4"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <Button
+        android:id="@+id/btnResultado"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:backgroundTint="#F1D911"
+        android:onClick="mostre"
+        android:rotation="4"
+        android:text="Resultado" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="21dp" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal|fill_horizontal|center_vertical"
+        android:rotation="-4"
+        android:text="Resultado"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+</LinearLayout>
